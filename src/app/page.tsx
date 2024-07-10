@@ -6,7 +6,7 @@ import { Suspense } from "react";
 
 
 
-export const Page = () => {
+export default function Home() {
   return (
     <div className="w-full max-w-4xl mx-auto">
 
@@ -26,4 +26,3 @@ export const Page = () => {
   )
 }
 
-export default Page;
